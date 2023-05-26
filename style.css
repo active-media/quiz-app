@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+    background-color: rgb(122, 21, 114);
+    width: 100%;
+    animation-name: change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@media screen and (max-width: 900px) {
+    body{
+        background-color: rgb(247, 100, 3);
+    }
+    body div{
+        width: 200px;
+        color: lawngreen;
+    }
+    /* #submit1{
+        color: blue;
+        background-color: white;
+    } */
+}
+
+
+#container{
+    margin: auto;
+    height: 250px;
+    width: 40%;
+    background-color: rgb(162, 27, 189);
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+.container h2{
+    text-align: left;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#submit1{
+    padding: 5px 20px;
+    margin-top: 20px;
+    background-color: rgb(180, 180, 180);
+    border: none;
+}
+
+#txt1{
+    border: 5px solid #ddd;
+    outline: none;
+}
+
+#txt2{
+    border: 5px solid #ddd;
+    outline: none;
+}
+
+#txt3{
+    border: 5px solid #ddd;
+    outline: none; 
+}
+
+#txt4{
+    border: 5px solid #ddd;
+    outline: none;  
+}
+
+#txt5{
+    border: 5px solid #ddd;
+    outline: none; 
+}
+
+#txt6{
+    border: 5px solid #ddd;
+    outline: none; 
+}
+
+
+#submit2{
+    padding: 5px 20px;
+    margin-top: 20px;
+    background-color: rgb(180, 180, 180);
+    border: none;
+}
+
+#submit3{
+    padding: 5px 20px;
+    margin-top: 20px;
+    background-color: rgb(180, 180, 180);
+    border: none;
+}
+
+#submit5{
+    padding: 5px 20px;
+    margin-top: 20px;
+    background-color: rgb(180, 180, 180);
+    border: none;
+}
+
+#submit5:hover{
+    background-color: rgb(238, 232, 232);
+}
+
+#submit1:hover{
+    background-color: rgb(238, 232, 232);
+}
+
+#submit3:hover{
+    background-color: rgb(238, 232, 232);
+}
+
+
+
